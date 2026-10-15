@@ -1,7 +1,7 @@
 body {
     background-color: #F7F5F0;
-    color: #24212D;
-    font-family: Arial, sans-serif;
+    color: #24212D;     /* default text color */
+    font-family: Arial, sans-serif;     /* preferred, fallback */
     margin: 0;
 }
 
@@ -12,16 +12,16 @@ body {
 }
 
 .main {
-    max-width: 650px;
+    max-width: 650px;       /* more compact for larger screens */
     margin: 10px auto;
     padding: 20px;
 }
 
 .tag {
     background-color: #E9E1FA;
-    color: #6741D9;
+    color: #6741D9;     /* text color */
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 h1 {
@@ -36,23 +36,23 @@ h2 {
 .profile-picture {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 50%;     /* circle */
     margin: 20px 0;
 }
 
 .intro {
     color: #605B69;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.6;   /* space between lines */
 }
 
 .button {
-    display: inline-block;
+    display: inline-block;  /* needed because a link is inline */
     background-color: #6741D9;
     color: white;
     padding: 12px 18px;
     border-radius: 8px;
-    text-decoration: none;
+    text-decoration: none;  /* get rid of underline */
     margin-bottom: 15px;
 }
 
